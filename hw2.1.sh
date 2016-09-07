@@ -11,3 +11,7 @@ c=$(($b*5))
 d=$(($c/9))
 
 echo "$a degrees Fahrenheit is equal to $d degress Celcius"
+
+e=$(($d+273))
+
+echo "$a degress Fahrenheit is also equal to $e degrees Kelvin"
